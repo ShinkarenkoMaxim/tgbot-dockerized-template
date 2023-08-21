@@ -21,13 +21,10 @@
     "@satont/grammy-redis-storage": "^1.2.0",
     "dotenv": "^16.0.1",
     "grammy": "^1.8.3",
-    "ioredis": "^5.0.5",
-    "lodash": "^4.17.21",
-    "sanitize-html": "^2.7.1"
+    "ioredis": "^5.0.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.35",
-    "@types/sanitize-html": "^2.6.2",
     "nodemon": "^2.0.16",
     "prisma": "^5.1.1",
     "ts-node": "^10.9.1",
