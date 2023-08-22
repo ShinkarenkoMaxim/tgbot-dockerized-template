@@ -1,2 +1,17 @@
+# Node
 node_modules/
 dist/
+npm-debug.log
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
