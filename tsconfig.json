@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "target": "es2020",
-    "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist",
-    "strict": false,
+    "removeComments": true,
+    "target": "es2024",
+    "module": "ESNext",
     "esModuleInterop": true,
-    "inlineSourceMap": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "noEmit": false,
+    "verbatimModuleSyntax": true,
+    "strict": false,
+    "incremental": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
   },
   "include": ["src"],
   "exclude": ["node_modules"]
